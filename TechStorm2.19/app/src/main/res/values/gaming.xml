@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Event Title-->
+    <string name="GamingTitle">GAMING</string>
+
+    <!--Event Desc-->
+    <string name="GamingDescription">Level Up!</string>
+
+
+    <!--Event Numbers-->
+
+    <!--Gaming Event Titles-->
+    <string name="FifaTitle">Fifa</string>
+    <string name="KhetTitle">Khet</string>
+    <string name="CocTitle">Clash of Clans</string>
+    <string name="PubgTitle">PUBG</string>
+
+    <!--Gaming Event Tags-->
+    <string name="FifaTags">90 Minutes. One Objective.\nScore more than the opposition</string>
+    <string name="KhetTags">The blunders are all there on the board, waiting to be made. When you see a good move, look for a better one.</string>
+    <string name="CocTags">There is no good or bad in this world,\nthere are just people whose intentions and clans clash</string>
+    <string name="PubgTags">Run, hide, heal, counter-fire!\nNo one owns life, but anyone who can pick up a frying pan owns death.</string>
+
+    <!--Gaming Details-->
+    <string name="FifaDetails">
+        The lush green calls, the stage is set, the whistle blows, the balls roll.
+        The time has arrived when tackles will be hard, shots will be saved, and blood
+        will be shed, it\'s when the stalwarts rise and the weak fail, it\'s when VIRTUAL COMBAT
+        comes into phase, it\'s when friends become enemies and rivalry dawns.There are different
+        rounds where each participant will have to play a one-to-one match against another
+        participant.
+    </string>
+
+    <string name="KhetDetails">
+        The Laser Game KHET 2.0: Mind blowing laser fun for players ages 9-99.
+        Using simple rules that can be learned in minutes, players alternate turns moving
+        Egyptian themed mirrored Pieces, after which they fire their REAL (eye-safe) laser with
+        the goal of blasting their opponents PHARAOH to win the game! BASIC GEOMETRICAL CONCEPT IS
+        THE KEY FACTOR IN THIS GAME.
+    </string>
+
+    <string name="CocDetails">
+        Hey Chief! We\'ve been waiting for you. Techstorm 2.19 brings you the opportunity to prove
+        to the Clashing Universe that you are the best in the business! So get your armies trained,
+        spells brewed and heroes healed up to kick some green butts!
+    </string>
+
+    <string name="PubgDetails">
+        All players must use their Mobile Phones (Emulators not allowed) to play the game and all
+        players must install the newest version of the game(and maps installed) in order to
+        participate. Updates must be installed beforehand, so delays will be at a minimum.
+    </string>
+
+
+
+
+    <!--Gaming Rules-->
+
+    <string name="FifaRules">
+        1. The players are not allowed to shoot the ball directly onto the crossbar from a corner kick in order to get a chance for a header when the ball rebounds or score directly from corner.\n
+        2. It is not allowed to score a goal from one\'s own half of the field.\n
+        3. It is forbidden to make a throw-in directly into the opponent\'s penalty area. Should a player throw the ball directly into the opponent\'s penalty area he shall be warned. Should he persist, he shall be disqualified from the tournament.\n
+        4. Any goals resulting from a throw-in into the opponent\'s penalty area will not be counted.\n
+        5. If a player changes his tactics, formation or line-up he has to kick the ball out of bounds after the changes so that his opponent is able to react.\n
+        6. If a player is found to be intentionally delaying the game time by passing the ball around and clearly not attempting to score, he may be given a warning or lose by default at the referee\'s discretion.\n
+        7. Prior to making any changes to one\'s team, the player that wants to make a change must be in possession of the ball and be in his own half before he pauses the game. In the last few minutes of the game it is not allowed to make any changes to one\'s team with the sole intent of delaying the match. Should this be the case, the player delaying the match will be warned by a referee and, should he persist after the warning, be attributed with a default loss of the match.\n
+        8. In any case, a goal scored due to the use of a "forbidden move" shall not be counted.\n
+        9. Should a player persist in playing with forbidden moves, he may be disqualified from the tournament.\n
+        10. All complaints shall be dealt with after the match has been completed.\n
+        11. Disconnection: Any connection loss between opponents due to system, network, PC, and/or power problems/issues.\n
+        12. Set pieces are available. Man Marking is allowed.\nNo forward pass at kick-off, you must back pass the ball.\n
+        13. You can choose your preferred controls; Manual, Semi or Assisted.\n
+        Tactical defending mode only.\n
+        Controllers are supplied by PLG. It is the responsibility of all Players to be familiar with the controller’s functions and mode of operation.\n
+        If a controller is defective, a Player can pause the game and notify the referee once only, if the player agrees the problem is fixed he may not pause again.\n
+        14. Extra Time: extra time of two one (1) minute halves will be played in the event of a draw after regulation. Penalties will decide the winner if after extra time the scores are level.\n
+        15.
+        Goal Keeper: World Class\n
+        Injuries: Off\n
+        Bookings: On\n
+        Referee: Random\n
+        Camera Settings: Tele-Broadcast\n
+        Time of the Day: Night\n
+        Home Team: Coin toss will decide.	Half: 4mins Groups\n
+        Half: 4mins Knock Out\n
+        Half: Bo3 6mins Qs to Final (depending on tournament)\n
+        Handball: Off\n
+        Time/Score display: On\n
+        HUD: Player Name Bar\n
+        Offside: On\n
+        Camera: Tele-Broadcast\n
+        Radar: 2D\n
+        Defense type: Tactical only\n
+        Pitch Wear: None\n
+        Stadium: Neutral\n
+        Goalkeeper Control: Yes\n
+    </string>
+
+    <string name="KhetRules">
+        \n<b>KEY NAMES</b>\n\n
+        1. PHARAOH(1): The Pharaoh(The King) is the most important piece for each side. If hit with a laser, it is destroyed and its owner loses the game.\n
+        2. SCARAB(2): Scarabs consist primarily of dual-sided mirrors. They reflect a laser coming in from any direction, and thus cannot be eliminated from the board.\n
+        3. ANUBIS(2): They have the advantage that, despite being unmirrored, they are not affected by a laser strike on the front, they must be hit on the sides to be eliminated.\n
+        4. PYRAMID(7): Pyramids have a single diagonal mirror, and form the primary mechanism for directing the path of the laser. They are vulnerable to a hit from two of the four sides.\n
+        5. SPHINX(1): Sphinxes hold the lasers. They can rotate in two directions only. A Sphinx is unaffected by laser fire, whether the opponent\'s or its own reflected back upon itself.\n
+        \n
+        <b>TARGET</b>\n\n
+        The primary aim of a player is to illuminate the Pharaoh of the opponent without being illuminated by the self laser or of opponent\'s\n
+        \n
+        <b>DETAILS</b>\n\n
+        1. PHARAOH: The Pharaoh is the most important piece for each side. If hit with a laser, it is destroyed and its owner loses the game. Similar to a king in chess, the Pharaoh pieces are comparatively weak, and so are often not moved unless under duress.\n
+        2. SCARABS: Scarabs consist primarily of large, dual-sided mirrors. They reflect a laser coming in from any direction, and thus cannot be eliminated from the board. Also, unlike other pieces, Scarabs may move into an adjacent square even if it is already occupied, by switching places with the piece found there (whichever color it may be). Thus, they are the most powerful pieces on the board, but must be used with care, as a move that puts one side of the mirror in a favorable position may expose the player to attack using the opposite side of the same mirror.\n
+        3. SPHINXES: In Khet 2.0, the Sphinxes hold the lasers. They may not move (each player\'s is located at their closest right-hand corner) but may be rotated in place so as to fire down the rank instead of the file. A Sphinx is unaffected by laser fire, whether the opponent\'s or its own reflected back upon itself.\n
+        4. ANUBES: Anubis has the advantage that, despite still being un-mirrored, they are not affected by a laser strike on the front; they must be hit on the sides or rear in order to be eliminated.\n
+        5. PYRAMIDS: Pyramids have a single diagonal mirror, and form the primary mechanism for directing the path of the laser. They are vulnerable to a hit from two of the four sides, and must be defended lest the player lose their ability to build paths of any size.\n
+        \n
+        <b>GENERAL RULES</b>\n\n
+        1. Two players will play in one set at a time. (3 sets are available)\n
+        2. In each turn a player will get a maximum of two minutes and for the next minute a negative point will be added. Maximum time limit is 3 minutes.\n
+        3. If he/she does not make any move within the stipulated time, then and there he/she will be eliminated and opponent shall be declared as winner.\n
+        4. A maximum of three warnings will be given for breaking any rule with a negative point.\n
+        5. Negative points will be the measure for breaking tie-ups, if any.\n
+        6. Mirrors of the pieces must not be touched.\n
+        \n
+        <b>ROUNDS</b>\n\n
+        PRELIMS: With the CLASSIC model, the prelims will be held and based on prelims eight participants will be selected.\n
+        SEMIS: In the Semis, the eight selected players will play and four winners will battle out for the final. IMHOTEP model will be used.\n
+        FINAL: In the final, no time limit will be there and from them one will be declared winner. Model DYNASTY will be implemented.\n
+
+    </string>
+
+    <string name="CocRules">
+    1.  Townhall 8 to Townhall 10 only.\n
+    2.  Mod or any other 3rd party software’s are not allowed.\n
+    3.  Rushed/engineered bases are not allowed. (Whether a base is rushed/ engineered or not  will be decided by the coordinators).\n
+    4.  One entry per person.\n
+    5.  Coordinators will not provide any sort of internet connection.\n
+    6.  In case of conflict, the decision of the coordinator will be final.\n
+    7.  Breaking of any rules will lead to immediate disqualification.\n
+    8.  Only clan spells are allowed provided by the coordinators.\n
+    9.  Clan troops are not allowed during the event whether it is used as attacking or defending the village.\n
+    10. There will be no use of magic items (such as using potion which boosts the army and spells to max level) and siege machines.\n
+    </string>
+
+    <string name="PubgRules">
+        1.  Any college student can participate in this event.\n
+        2.  This event will be played online. No internet connection will be provided, you have to use your own mobile data or wifi .\n
+        3.  Only registered player will be allowed to play the game. No substitution will be allowed for squad or solo game.\n
+        4.  If all the team members are not present in case of squad game, then the team have to play with the available player or else they will be disqualified. \n
+        5.  Emulators not allowed.\n
+        6.  No hackers allowed, such as wall hack, health hack, armour hack, etc.\n
+        7.  No gfx tool is allowed.(If you currently have installed, then you must uninstall it at the time of event).\n
+        8.  No triggers or controllers are allowed (Use of mouse, keyboard, controller is prohibited).\n
+        9.  Participants should not be late for the tournament. If they are late, they won\'t be allowed and will be disqualified. No refund will be provided for that cause.\n
+        10.  Threatening and abusing game admins can result in legal actions. Admins decision is final in any scenario.\n
+        11.  Players need to carry their own mobile phone, headset( If required), power bank(If required) with them. No such thing will be provided.\n
+        12.  Coordinates have the right to change or modify any rules and regulations before any prior notice.\n
+        13.  If any of Bppimt students form squad with students of other college, they have to pay the amount 150 per squad.\n
+        14.  Teaming up with your rivals in the game is strictly prohibited and will lead to disqualifying both the participants.\n
+        15.  Erangel and Sanhok map should be available in your phone before starting the tournament.\n
+        16.  Student must bring their ID card at the day of tournament.\n
+    </string>
+
+    <string name="FifaFees">BPPIMT students: INR 30 /-\n\nOther students: INR 50 /-</string>
+    <string name="KhetFees">BPPIMT students: INR 30 /-</string>
+    <string name="CocFees">BPPIMT students: INR 30 /-\n\nOther students: INR 50 /-</string>
+    <string name="PubgFees">BPPIMT:\nSolo: INR 50 /-\nSquad: INR 120 /-\n\nOthers:\nSolo: INR 50 /-\nSquad: INR 150 /-</string>
+
+    <!--Helpdesk Contacts-->
+    <string name="FifaHelp">Subhajit Paul</string>
+    <string name="KhetHelp">Souradip Mandal</string>
+    <string name="CocHelp">Parikshit Saha</string>
+    <string name="PubgHelp">Surya Sarkar</string>
+
+    <!--Helpdesk Phone Numbers-->
+    <string name="FifaContact">8016970670</string>
+    <string name="KhetContact">7797873331</string>
+    <string name="CocContact">8902188541</string>
+    <string name="PubgContact">7407218691</string>
+
+
+</resources>

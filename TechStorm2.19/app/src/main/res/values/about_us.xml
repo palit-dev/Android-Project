@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_us_collegeName">B. P. PODDAR INSTITUTE OF MANAGEMENT AND TECHNOLOGY</string>
+    <string name="about_us_details">
+        B. P. Poddar Institute of Management and Technology presents to you, Techstorm 2.19, where we
+        aim at diversifying the manifold fields of technology. Ever since its advent in our institute from
+        2011, we have always believed in the amalgamation of technology and imagination.\n
+        \n
+        "Imagination is more important than knowledge. For knowledge is limited, whereas imagination
+        embraces the entire world, stimulating progress, giving birth to evolution"\n
+        -Albert Einstein\n
+        \n
+        While continuing to celebrate this legacy, BPPIMT welcomes you to this edition of Techstorm 2.19
+        - the technical festival of BPPIMT family.\n
+        \n
+        We invite you all to come and unleash your technical skills and creativity, be our esteemed guest
+        and take back along with you an enriching experience that you have never experienced before.
+    </string>
+    <string name="shirsho_number">08013835243</string>
+    <string name="bisheshwar_number">08697247211</string>
+    <string name="abhishek_number">09674085769</string>
+    <string name="tathagata_number">08335894426</string>
+</resources>

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@color/colorMaterialWhite"
+    android:elevation="6dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/databaseCardView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/databaseEventTitle"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp"
+                android:elevation="6dp"
+                android:text="Passion With Reels"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"/>
+
+            <ImageButton
+                android:id="@+id/databaseMoreButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="@android:color/transparent"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/arrow_down" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/collapsingDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/star"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@id/lin_layout"
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:id="@+id/lin_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subjectLeaderName"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/bodyLeaderName"
+                        android:layout_alignBottom="@id/bodyLeaderName"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Leader Name: "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bodyLeaderName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@id/subjectLeaderName"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Rudra Nath Palit "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subjectLeaderEmail"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/bodyLeaderEmail"
+                        android:layout_alignBottom="@id/bodyLeaderEmail"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Leader Email: "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bodyLeaderEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@id/subjectLeaderEmail"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="rudra.palit@gmail.com "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subjectEvent"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/bodyEvent"
+                        android:layout_alignBottom="@id/bodyEvent"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Team Name: "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bodyEvent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@id/subjectEvent"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Pyontai "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subjectMembers"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/bodyMembers"
+                        android:layout_alignBottom="@id/bodyMembers"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Members: "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bodyMembers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@id/subjectMembers"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Soumyadeep Ghosh\nSoham Bhattacharyya "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subjectCollege"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/bodyCollege"
+                        android:layout_alignBottom="@id/bodyCollege"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="College: "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bodyCollege"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@id/subjectCollege"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="BP Poddar Institute of Management and Technology "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/subjectContact"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/bodyContact"
+                        android:layout_alignBottom="@id/bodyContact"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="10dp"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="Contact: "
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bodyContact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_toEndOf="@id/subjectContact"
+                        android:elevation="6dp"
+                        android:gravity="center_vertical"
+                        android:text="123456789"
+                        android:textAlignment="gravity"
+                        android:textColor="@android:color/black" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>

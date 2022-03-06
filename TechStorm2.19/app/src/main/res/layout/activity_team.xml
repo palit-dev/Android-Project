@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".TeamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/teamBackButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            android:elevation="6dp"
+            android:padding="12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="6dp"
+            android:padding="5dp"
+            android:text="Team"
+            android:textColor="@color/colorMaterialWhite"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                app:columnCount="3"
+                app:rowCount="7">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/abhishek_kumar"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_abhishek"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/aishwarya_kundu"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_aishwariya"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/arpit_biswas"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_arpit"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/bisheswar_ball"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_bisheswar"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/chandni_dey"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_chadni"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/dipesh_gupta"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_dipesh"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/kunal_chowdhury"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_kunal"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/payel_rakshit"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_payel"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/rishav_shaw"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_rishav"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/shabina_arfa"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_shabina"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/shirsho_dutt"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_shirsho"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/shivam_agarwal"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_shivam"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/siddharth_vora"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_siddhart"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/soham_mukherjee"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_soham"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/suraj_pandey"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_suraj"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/tathagata_basu"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_tathagata"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/tithi_purkait"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_tithi"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/wajahat_mujib"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_wajahat"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    app:layout_rowWeight="1"
+                    app:layout_column="1"
+                    app:layout_columnWeight="1"
+                    android:layout_margin="5dp"
+                    android:background="@color/colorMaterialWhite"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.facebook.drawee.view.SimpleDraweeView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:scaleType="centerCrop"
+                            app:actualImageResource="@drawable/soumyadeep_ghosh"
+                            app:placeholderImage="@drawable/loading_user" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:elevation="6dp"
+                            android:padding="5dp"
+                            android:text="@string/team_soumyadeep"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/black" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.gridlayout.widget.GridLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Event Title-->
+    <string name="RoversTitle">ROVERS</string>
+
+    <!--Event Desc-->
+    <string name="RoversDescription">Got any Bots ?</string>
+
+
+    <!--Event Number-->
+
+    <!--Rover Event Titles-->
+    <string name="RoTerranceTitle">Ro-Terrance</string>
+    <string name="RoCombatTitle">Ro-Combat</string>
+    <string name="RoSoccerTitle">Ro-Soccer</string>
+    <string name="RoNavigatorTitle">Ro-Navigator</string>
+    <string name="RoPickerTitle">Ro-Picker</string>
+    <string name="RoPuzzleTitle">Ro-Puzzle</string>
+    <string name="RoWingsTitle">Ro-Wings</string>
+
+    <!--Rover Event Tags-->
+    <string name="RoTerranceTags">Life will throw many obstacles. But we\'ll throw mountains, desserts, bridges and may be even a river. Just don\'t let your wheels fall apart.</string>
+    <string name="RoCombatTags">You don\'t want to stand too close to a robot arm; it can turn you to mush !</string>
+    <string name="RoSoccerTags">As long as no one scored, it\'s always going to be close.</string>
+    <string name="RoNavigatorTags">Discipline is the key to stay on track. May your bot be disciplined enough.</string>
+    <string name="RoPickerTags">At the end of the day, the job is to pick the blocks and move to the finish line as fast as you can !</string>
+    <string name="RoPuzzleTags">Why would call Arduino coding a puzzle ?? Unless.... that\'s the puzzle !</string>
+    <string name="RoWingsTags">Please make sure to fasten your seat belts, keep your seats upright and keep your windows open during take-off.</string>
+    <!--Rover Event Rule-->
+    <string name="RoTerranceDetails">
+    The event consists of an arena which is a pathway filled with obstacles.
+        The bot must be able to follow the path to overcome any obstacles coming its way ,
+        be it water , sand , gravel , or any mechanical blockage. Points will be awarded on
+        successfully overcoming any obstacles otherwise negative points will be awarded.
+    </string>
+
+    <string name="RoCombatDetails">
+        Two bots will start from two opposite sides of arena.
+        There will be an inclined plane and a combat zone. Points will be provided in both zones.
+        There will be some changes in the arena from preliminary round to final round.
+        In preliminary rounds there will be a cubical arena with two inclined planes.
+        At the entrance there will be a flap gate and an inclined plane through which bots will enter.
+        Two cubical ditches will be present inside the arena at possible edges.
+        Preliminary rounds will be of 1200 points and later stages will be of more points.
+    </string>
+
+    <string name="RoSoccerDetails">
+        Explore the thrill of soccer ,
+        the challenge of team coordination , your skills of control over the bot and your limit to
+        resist the pressure and deliver at the same time. In this event teams have to try to score
+        goals against their opponents and save their goal at the same time. Extend your imagination
+        in the game play and tactics. If you think that you are up to the mark then RO-SOCCER is the
+        platform for robotics enthusiastic like you.
+    </string>
+
+    <string name="RoNavigatorDetails">
+        The autonomous robot will have to track a black line on a white surface and has to complete
+        the track in shortest period of time, starting from the start point to the finish point.
+        There will be some checkpoints in the track, which the bot has to indicate by glowing LED light.
+        \nThe problem statement, the track and the point system of the final round will be disclosed
+        to teams after the prelim round is completed.
+    </string>
+
+    <string name="RoPickerDetails">
+        At the end of the day, the job is to pick the blocks and move to the finish
+        line as fast as you can !
+    </string>
+
+    <string name="RoPuzzleDetails">
+        In Mechatronics, the movement of robotic arms or legs for completion of a particular
+        task is done by automatic control logic i.e. the motors connected to these limbs are
+        controlled by programming a micro-controller. It may happen that more than one robotic
+        arm’s motor has to be triggered. In this competition you have to blink led panels
+        composed of three layers and also perform other tasks like controlling the speed of motor
+        by programming an Arduino in a fixed amount of time.
+    </string>
+
+    <string name="RoWingsDetails">
+        Test your imagination with your measurable skills that will take you to the
+        winning paramount of the event robo-spring. Race your drone against time and
+        across obstacles course from start to finish at full throttle. The whole event is
+        divided into parts with hurdles at each stage. So buckle your skills and test your control.
+    </string>
+
+    <!--Rover Event Rules-->
+    <string name="RoTerranceRules">
+        <b>BOT SPECIFICATION</b>\n\n
+        1. The dimensions of the bot can be up to a maximum of 25*25*25 cm (l*b*h) excluding the controller dimension.\n
+        2. The weight of the bot must not be more than 2Kg. \n
+        3. Maximum voltage between the two points on the bots must not exceed 24V DC.\n
+        4. The chassis can be of any material but weight limit should not exceed 2Kg.\n
+        5. Wheels can be of metal or any material but it must have a rubber tire on it. \n
+        6. Use of IC engine is prohibited.\n
+        7. In case of wired bot, sufficient amount of wire must be brought by the participants. \n
+        8. 240 V AC will be supplied as a power source for the bots.\n
+        \n
+        <b>TEAM RULES</b>\n\n
+        1. Each team may consist of maximum of four members.\n
+        2. No participants can be present in two teams.\n
+        3. Each member of the team must bring their college ID cards and Adhaar or PAN card photocopy.\n
+        4. Teams will require registering themselves in the registration counter before they can participate in the event.\n
+        5. Each team has to keep the registration slip carefully for the issue of participants and winning certificates.\n
+        6. Wireless bot will be provided extra 200 bonus points over their total points.\n
+        \n
+        <b>GAMEPLAY RULES</b>\n\n
+        1. The team will be given maximum 4 min to complete the whole task.\n
+        2. During the Rounds, only maximum of two team members are allowed in the arena, one member will control the robot and other to guide it. However, teams are allowed to switch members in different rounds.\n
+        3. No last minute repairs will be allowed in the arena. However, each team can take a time-out of 2 minutes once during the event.\n
+        4. If the bot falls off the arena or is unable to cross any obstacles, the team can use a hand touch and place the bot in its previous position. A total of 2 such hand touches will be allowed.\n
+        5. If the team uses both the hand touches, points will be deducted for subsequent hand touches.\n
+        6. The rules can be changed or modified according to the circumstances and the arena.\n
+    </string>
+
+    <string name="RoCombatRules">
+        <b>BOT SPECIFICATION</b>\n
+        \n
+        1. There will be three categories based on the weight of the bots\n
+           a. Category 1- 16kg to 30kg (1st winner will be selected from this category)\n
+           b. Category 2- 7kg to 15kg (1st runners up will be selected from this category)\n
+           c. Category 3- maximum 6kg (2nd runners up will be selected from this category)\n
+        2.  Dimension should be less than (50*50*50) cm3 including all gadgets. \n
+        3.  Bot’s wheels should fit in a 45*45cm2 platform at the time of start. \n
+        4.  No readymade lego kits will be allowed. \n
+        5.  A 230V ac voltage will be provided to each team. \n
+        6.  Ac motor in weapon system or wheels is strictly prohibited. Use of hammering tools is allowed. But in case of vertical hammering, the hammering should stop at a minimum height of 5cm from the surface of arena, so that the arena does not get damaged. Cutting, fire and throwing weapons are NOT allowed.\n 
+        7.  The surface of arena may get slippery, the bots should bear that.\n 
+        8.  Wires should be sufficiently long and should not slack or touch the arena, if it does organizer will not be responsible for any damage.\n
+        \n
+        <b>RULES AND REGULATIONS</b>\n
+        \n
+        1. The bots need to enter the arena through flap gates. For this 100 points will be given.\n
+        2.  For entering to the battle ground or combat zone through the inclined plane successfully 100 points will be given.\n
+        3.  If a bot is put in the pit inside the arena by opponent it will give the opponent full 300 points.\n
+        4. 100 points will be given for pushing the bot of the opponent team outside the arena.\n
+        5.  Any team can ask for time out due to technical faults. One time out will be allotted for 3 minutes. After that 10 points will be deducted for each minute.\n
+        6. 50 points will be deducted for each hand touch.\n
+        7.  In any way if the hammering tool touches the arena surface 100 points will be deducted from the respective team.\n
+        8.  Any kind of damage to the arena will lead to direct disqualification of the team. 
+        9 .\n
+          a. Duration of a match is 20 minutes.\n
+          b. In the preliminary stage, the team that will reach 1200 points first, will qualify for the      next round.\n
+          c. In case of the teams fail to reach 1200 points within the stipulated time, the team with the higher score at the end of 20 minutes shall qualify for next round.\n
+        10. The team with the highest score within 10 minutes shall qualify for further rounds.\n
+        11. Points will be deducted for exceeding the weight and dimension limits (mentioned under bot specification)\n
+          a. 100 points will be deducted for each extra kg\n
+        b. 20 points will be deducted for each extra cm\n
+        \n
+        <b>TEAM SPECIFICATIONS</b>\n
+        \n
+
+        1. Each team can have a maximum of 5 members. No same member can be present in two teams.\n
+        2. The members of a team can be from different colleges/universities.\n
+        3. Team members need to bring their college ID cards and valid govt. ID cards (voter ID card or PAN card or Aadhar card Xerox copy).\n
+        4. Each team can present only 1 bot.\n
+        5. Any member who is a part of RO-COMBAT organizing team cannot take part in RO-COMBAT event.\n
+        6. Preliminary event will be held on the first day of techfest. Qualified teams need to come on next day for further rounds about which they will be informed.\n
+        7. In preliminary rounds, team will face each other on first come first serve basis. However it will be tried that bots with resembling features will face each other if possible. However the ultimate fixture will be decided by the coordinators. Any kind of mis-behaviour will lead to disqualification of the team immediately.\n
+        8. The reporting time of the teams for the event is 11:00 AM on both days. It is expected to be followed strictly.\n
+        The coordinators may change the rules in case of emergency. In case of any disputes the decision of the coordinators will be considered as final.\n
+    </string>
+
+    <string name="RoSoccerRules">
+        <b>BOT SPECIFICATION</b>\n\n
+        1. The dimensions of the bots should be 25*25*25 cm.\n
+        2. The weight of the bot should be within 3 kg, no external weight is allowed, otherwise the corresponding team will be disqualified.\n
+        3. 10% tolerance would be allowed in 25 cm lengths and any deviations from the above mentioned dimensions may lead to disqualification of the team.\n
+        4. Readymade toy cars or Lego or IC engines or hydraulic systems are not allowed.\n
+        5. The robot should be remotely controlled and the connections (the wires, for instance) between the control unit and the robot should be slag all the times.\n
+
+        <b>GENERAL RULES</b>\n\n
+        1. Each team can have a maximum of 5 members. Students from different institutions can form a team provided that each member of the team contains the identity card of his/her respective institute along with a Xerox copy of voter ID card or PAN card or AADHAR card.\n
+        2. No fans or blowing devices are allowed.\n
+        3. In prelims one bot from each team will participate in the gameplay.\n
+        \n
+        <b>TECHNICAL RULES</b>\n\n
+        1. 10% tolerance is given on dimensions.\n
+        2. A team can take maximum of two technical time outs for not more than 5 minutes with valid reasons.\n
+        3. Unethical behaviour could lead to disqualification.\n
+        4. The robot may be disqualified if found violating the technical and safety rules of the event.\n
+        5. Coordinators have all the rights to take final decision for any matter during the event.\n
+        \n
+    </string>
+
+    <string name="RoNavigatorRules">
+        <b>BOT SPECIFICATION</b>\n\n
+        1. Bot dimension must be such that it fits in the cube of 20cm x 20cm x 20cm. Individual parameters to be measured with a tolerance of 10%.\n
+        2. The bot must be an autonomous robot, no remote or controller should control the robot.\n
+        3. The participants will be provided with a 220V, 50 Hz single phase power supply.\n
+        4. A bot may weigh up to 4Kg but not more than that.\n
+        5. Use of IC engines is prohibited.\n
+        6. The robot has to be designed and developed by the team itself, commercially available modules (like sensors, development board, etc) can be used, but the bots cannot be constructed using ready-made Lego kits.\n
+        7. Damage to the arena will lead to disqualification.\n
+        \n
+        <b>GENERAL RULES</b>\n\n
+        1. Each team can have a maximum of 5 members. No same member can take part in two teams.\n
+        2. The members of a team can be from different college or university.\n
+        3. Team members need to bring their ID cards.\n
+        4. Each team can present only one bot.\n
+        5. Prelim will be held on the first day of Tech-fest. Qualified teams need to come on the next day for the final round about which they would be informed.\n
+        6. The coordinators can change the rules in case of special cases.\n
+        \n
+        <b>GAMEPLAY (PRELIMS)</b>\n\n
+        1. The line will be black on a white background.\n
+        2. The bot has to reach the destination point from the starting point.\n
+        3. The bot with minimum time of RUN leads the score board.\n
+        4. Total of 5 min time is allocated per team.\n
+        5. A team can take as many RUN as possible in their allocated time of 5 minutes.\n
+        6. Each new RUN has to begin from the starting point only.\n
+        7. Between two consecutive RUN the clock will not pause.\n
+        8. Only one 2minute technical time out is allowed.\n
+        9. The bot has to stop and blink a led  at each checkpoint, unable to do so the team will be penalized.\n
+        10. The line will be of 3cm maximum.\n
+        11. Hard coding is not allowed.\n
+    </string>
+
+    <string name="RoPickerRules">
+
+        <b>BOT SPECIFICATION</b>\n\n
+        1. The robot should fit in a box of dimension 40cm(l) x 30cm(b) x 30cm(h) with the picking mechanisms.\n
+        2. Maximum weight of robot should not be more than 4 kgs. External control device shall not be considered for weight and size measurement.\n
+        3. The robot may be wired or wireless. There is a Special credit for wireless bot. But for wireless, it is mandatory to use dual frequency remote or else it will lead to disqualification. For wired bots, the length must be enough for cover the entire arena.\n
+        4. Lego kit or spare parts are strictly prohibited. However team can use ready made gear system.\n
+        5. The potential difference between any two points should not exceed 24 V DC at any point of time during the run.\n
+        \n
+        <b>TEAM RULES</b>\n\n
+        1. There can be a minimum of 3 and a maximum of 5 unique members in the team.\n
+        2. Team members need to bring their college ID cards.In the prelim there will be obstacles, teams have to avoid the obstacles and put the ball in the basket.\n
+        3. The participants will be provided with a 220V, 50Hz single phase power supply.\n
+        4. The decision of coordinators will be final.\n
+        \n
+        <b>GAMEPLAY RULES</b>\n\n
+        1. This is a time based pick and place event so fastest and the most efficient robots will win.\n
+        2. All the rounds will be solo with increasing arena complexities (can be box number or hurdels) towards the finals.\n
+        3. Time taken by the robots to complete the track will be the only criteria of judgement for qualification to the next round.\n
+        4. There will be total 2 min of technical help for every team which can be taken at-most 2 division (eg: 1 min 30 sec + 30 sec or 1 min + 1 min) \n
+        5. Under any circumstances , after the beginning of the round team participants must not touch the bots except in the technical timeout.\n
+        6. Teams who chose to quit (for technical fault) will not be considered while shortlisting candidates for the next round in any case.\n
+        7. Stepping on the track is forbidden. This can only be done by co-ordinators. Failing to abide will lead to disqualification without any refunds.\n
+        8. No two team should share the same robot.\n
+    </string>
+
+    <string name="RoPuzzleRules">
+        1. There will be two rounds:Prelims and Final.\n
+        2. No requests for a second chance will be entertained.\n
+        3. Coordinator’s decision will be final.\n
+        4. Team Size: 4 members from the same institute.\n
+        5. Two members can work at a time and two members will be on standby.\n
+        6. If one member can’t complete the task, then someone else can replace him/her.\n
+        7. No mobile phones, internet or any electronic gadget other than that which is 	required to do the task will be allowed.\n
+        8. Participants must bring 1 laptop.\n
+        9. Each member of the team must bring their own college ID cards and Aadhar card or pan card.\n
+        10. Teams will be required to register themselves in the registration counter before they can participate in the event.\n
+    </string>
+
+    <string name="RoWingsRules">
+        <b>DRONE SPECIFICATION</b>\n\n
+        1. Use a tri-copter, quad-copter, hexa-copter or octa-copter model.\n
+        2. Use of metallic propellers is prohibited. \n
+        3. Use electrical motors only. \n
+        4. Decide the dimensions of your craft carefully.\n
+        5. Use of automated features of flight control of board will lead to direct disqualification. \n
+        \n
+        <b>GAMEPLAY RULES</b>\n\n
+        1. The height of each pole will be of 1m with a circle mounted on it.\n 
+        2. The circles contain balls hanging to it. The drone should pass through the circle without touching the balls. \n
+        3. Maximum height of the multicopter from the ground is of 1.2m.\n 
+        4. You have to start from origin and follow the path neatly without interfering obstacles, area and ground. \n
+        \n
+        <b>GENERAL RULES</b>\n\n
+        1. Every participant must bring their college id card along with a Xerox copy of his/her voter ID card or PAN card or Aadhar card. \n
+        2. Every participant must be a student of any reputed institute. \n
+        3. Max of five members allowed in a team.\n 
+        4. On completion of the path, land your multicopter accurately on the box placed at the end of the path. \n
+        5. Maximum of three faults is allowed which includes touching the ground, crossing maximum height limit of 1.2m, any collision with the arena etc. Time will not be paused. \n
+        6. A technical fault time would be provided with a valid reason and it would cost points. \n
+        7. If any unethical, fraudulent behavior is found, which will violate the rules of the game play, then the corresponding teams will be disqualified. \n
+        8. Note the rounds will dependent upon the participation. \n
+        9. At any time we can change the arena rules and the decision of the coordinator will be final.\n
+       \n
+    </string>
+
+    <string name="RoTerranceFees">BPPIMT Teams: INR 120 /-\nOther Teams: INR 150 /-</string>
+    <string name="RoCombatFees">BPPIMT Teams: INR 120 /-\nOther Teams: INR 150 /-</string>
+    <string name="RoSoccerFees">BPPIMT Teams: INR 120 /-\nOther Teams: INR 150 /-</string>
+    <string name="RoNavigatorFees">BPPIMT Teams: INR 80 /-\nOther Teams: INR 100 /-</string>
+    <string name="RoPickerFees">BPPIMT Teams: INR 100 /-\nOther Teams: INR 120 /-</string>
+    <string name="RoPuzzleFees">BPPIMT Teams: INR 80 /-\nOther Teams: INR 100 /-</string>
+    <string name="RoWingsFees">BPPIMT Teams: INR 120 /-\nOther Teams: INR 150 /-</string>
+
+    <!--Helpdesk Contacts-->
+    <string name="RoTerranceHelp">Abhirup Bose</string>
+    <string name="RoCombatHelp">Samapika Mandal</string>
+    <string name="RoSoccerHelp">Vijayshri Singh</string>
+    <string name="RoNavigatorHelp">Aniket Mandal</string>
+    <string name="RoPickerHelp">Soham Debnath</string>
+    <string name="RoPuzzleHelp">Soham Bhattacharyya</string>
+    <string name="RoWingsHelp">Kaustav Chowdhury</string>
+
+    <!--Helpdesk Contact Phone Numbers-->
+    <string name="RoTerranceContact">9547203003</string>
+    <string name="RoCombatContact">7602011021</string>
+    <string name="RoSoccerContact">7596813127</string>
+    <string name="RoNavigatorContact">8902694932</string>
+    <string name="RoPickerContact">7980549825</string>
+    <string name="RoPuzzleContact">7003701754</string>
+    <string name="RoWingsContact">7059554009</string>
+</resources>

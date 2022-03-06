@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="team_abhishek">Abhishek Kumar</string>
+    <string name="team_aishwariya">Aishwarya Kundu</string>
+    <string name="team_arpit">Arpit Biswas</string>
+    <string name="team_bisheswar">Bisheswar Ball</string>
+    <string name="team_chadni">Chandni Dey</string>
+    <string name="team_dipesh">Dipesh Gupta</string>
+    <string name="team_kunal">Kunal Chowdhury</string>
+    <string name="team_payel">Payel Rakshit</string>
+    <string name="team_rishav">Rishav Shaw</string>
+    <string name="team_shabina">Shabina Arfa</string>
+    <string name="team_shirsho">Shirsho Dutt</string>
+    <string name="team_shivam">Shivam Agarwal</string>
+    <string name="team_siddhart">Siddhart Vora</string>
+    <string name="team_soham">Soham Mukherjee</string>
+    <string name="team_suraj">Suraj Pandey</string>
+    <string name="team_tathagata">Tathagata Basu</string>
+    <string name="team_tithi">Tithi Purkait</string>
+    <string name="team_wajahat">Wajahat Mujib</string>
+    <string name="team_soumyadeep">Soumyadeep Ghosh</string>
+
+    <!--<string name="team_abhishek_dept">Department of IT</string>-->
+    <!--<string name="team_aishwariya_dept">Department of ECE</string>-->
+    <!--<string name="team_arpit_dept">Department of IT</string>-->
+    <!--<string name="team_bisheswar_dept">Department of EE</string>-->
+    <!--<string name="team_chadni_dept">Department of ECE</string>-->
+    <!--<string name="team_dipesh_dept">Department of EE</string>-->
+    <!--<string name="team_kunal_dept">Department of ECE</string>-->
+    <!--<string name="team_payel_dept">Department of CSE</string>-->
+    <!--<string name="team_rishav_dept">Department of ECE</string>-->
+    <!--<string name="team_shabina_dept">Department of CSE</string>-->
+    <!--<string name="team_shirsho_dept">Department of ECE</string>-->
+    <!--<string name="team_shivam_dept">Department of CSE</string>-->
+    <!--<string name="team_siddhart_dept">Department of CSE</string>-->
+    <!--<string name="team_soham_dept">Department of ECE</string>-->
+    <!--<string name="team_suraj_dept">Department of IT</string>-->
+    <!--<string name="team_tathagata_dept">Department of CSE</string>-->
+    <!--<string name="team_tithi_dept">Department of CSE</string>-->
+    <!--<string name="team_wajahat_dept">Department of EE</string>-->
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Techstorm</string>
+    <array name="dept">
+        <item>None</item>
+        <item>ECE</item>
+        <item>CSE</item>
+        <item>IT</item>
+        <item>EE</item>
+        <item>ME</item>
+        <item>Civil</item>
+        <item>BCA</item>
+        <item>MCA</item>
+        <item>Others</item>
+    </array>
+</resources>
